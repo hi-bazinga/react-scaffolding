@@ -1,0 +1,52 @@
+.commentRte {
+    min-height: 200px;
+    font-family: inherit !important;
+}
+
+.commentItem .panel-heading::before, .commentItem .panel::before, .commentItem .panel::after {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-color: transparent #ddd transparent transparent;
+    border-style: solid solid outset;
+    display: block;
+}
+
+.commentItem .panel::after {
+    margin-top: 1px;
+    margin-left: 2px;
+    border-width: 7px;
+    border-right-color: #f2f8fa;
+}
+
+.commentItem .panel .panel-heading{
+    background-color: #f2f8fa;
+}
+
+.commentItem ul {
+    list-style: disc;
+}
+
+.commentItem ol {
+    list-style: decimal;
+}
+
+.commentItem .timeText {
+    float: right; 
+    color: #777;
+    font-weight: normal;
+}
+
+.commentItem .headImg {
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.commentForm .submitBtn {
+    margin-top: 10px;
+    float: right;
+}
